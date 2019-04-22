@@ -22,6 +22,11 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    open: 'firefox',
+    port: '9000',
+    // openPage: 'clients/'
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
